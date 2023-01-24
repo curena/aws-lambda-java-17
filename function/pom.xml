@@ -9,40 +9,17 @@
     <version>1.0-SNAPSHOT</version>
 
     <properties>
-        <aws.java.sdk.version>2.17.110</aws.java.sdk.version>
+        <aws.lamdba.java.runtime.version>2.1.1</aws.lamdba.java.runtime.version>
+        <aws.lamdba.java.core.version>1.2.2</aws.lamdba.java.core.version>
+        <aws.lamdba.java.events.version>3.11.0</aws.lamdba.java.events.version>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
     </properties>
     <dependencies>
         <dependency>
             <groupId>com.amazonaws</groupId>
-            <artifactId>aws-lambda-java-core</artifactId>
-            <version>1.2.1</version>
-        </dependency>
-        <dependency>
-            <groupId>org.slf4j</groupId>
-            <artifactId>slf4j-simple</artifactId>
-            <version>1.7.36</version>
-        </dependency>
-        <dependency>
-            <groupId>com.amazonaws</groupId>
-            <artifactId>aws-lambda-java-events</artifactId>
-            <version>3.11.0</version>
-        </dependency>
-        <dependency>
-            <groupId>com.amazonaws</groupId>
             <artifactId>aws-lambda-java-runtime-interface-client</artifactId>
-            <version>2.0.0</version>
-        </dependency>
-        <dependency>
-            <groupId>software.amazon.awssdk</groupId>
-            <artifactId>dynamodb-enhanced</artifactId>
-            <version>2.17.110</version>
-        </dependency>
-        <dependency>
-            <groupId>software.amazon.awssdk</groupId>
-            <artifactId>dynamodb</artifactId>
-            <version>2.17.110</version>
+            <version>2.1.1</version>
         </dependency>
     </dependencies>
     <build>

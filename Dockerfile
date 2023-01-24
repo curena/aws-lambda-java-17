@@ -38,6 +38,7 @@ RUN jlink --verbose \
 RUN /jre17-slim/bin/java -Xshare:dump
 
 # Package everything together into a custom runtime archive
+# Package everything together into a custom runtime archive
 WORKDIR /
 COPY bootstrap bootstrap
 RUN chmod 755 bootstrap
