@@ -10,8 +10,6 @@
 
     <properties>
         <aws.lamdba.java.runtime.version>2.1.1</aws.lamdba.java.runtime.version>
-        <aws.lamdba.java.core.version>1.2.2</aws.lamdba.java.core.version>
-        <aws.lamdba.java.events.version>3.11.0</aws.lamdba.java.events.version>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
     </properties>
